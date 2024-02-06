@@ -191,7 +191,3 @@ git commit -m "Some meaningful message"
 git push origin main
 ```
 You will be prompted to sign into Github in order to push.
-
-- - -
-
-This works from a remote Windows workstation!
