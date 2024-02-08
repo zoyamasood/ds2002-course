@@ -2,7 +2,7 @@
 
 Welcome to DS2002 Data Science Systems!
 
-This repository manages your working environment during this course. Some course material
+This repository tracks your working environment during this course. Some course material
 and tools will be distributed in this way so that we all have a common set of tools, scripts, and datasets.
 
 This requires that you clone and stay current with the **course code respository** and have the appropriate
