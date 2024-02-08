@@ -10,7 +10,7 @@ tools to complete exercises.
 
 ## Updating your fork
 
-To stay current with new releases into the course repository, follow these two simple steps:
+To stay current with new releases into the course repository, follow these steps:
 
 1. Add an upstream source
 ```
