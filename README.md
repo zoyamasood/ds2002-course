@@ -12,11 +12,15 @@ tools to complete exercises.
 
 To stay current with new releases into the course repository, follow these two simple steps:
 
-1. Fetch from the upstream branch:
+1. Add an upstream source
+```
+git remote add upstream git@github.com:nmagee/ds2002-course.git
+```
+2. Fetch from the upstream branch:
 ```
 git fetch upstream
 ```
-2. Merge your branch with the upstream branch.
+3. Merge your branch with the upstream branch.
 ```
 git merge upstream/main main
 ```
