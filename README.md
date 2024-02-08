@@ -25,6 +25,13 @@ git fetch upstream
 git merge upstream/main main
 ```
 
+This can be run in a single block:
+```
+git remote add upstream git@github.com:nmagee/ds2002-course.git
+git fetch upstream
+git merge upstream/main main
+```
+
 ## Saving your changes
 
 If you generate code, scripts, data files, etc. that you would like to keep, simply add, commit, and push
