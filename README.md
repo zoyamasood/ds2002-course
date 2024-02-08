@@ -35,7 +35,7 @@ git merge upstream/main main
 ## Saving your changes
 
 If you generate code, scripts, data files, etc. that you would like to keep, simply add, commit, and push
-the files back to your fork of the repository:
+the files back to **your** fork of the repository:
 ```
 git add .
 git commit -m "Some meaningful message"
