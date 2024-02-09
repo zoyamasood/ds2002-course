@@ -67,16 +67,18 @@ arguments when invoking from the command-line:
 ```
 #!/bin/bash
 
-echo "$0 <-- invoking script\n"
-echo "$1 <-- first parameter\n"
-echo "$2 <-- second parameter\n"
+echo "$0 <-- invoking script"
+echo "$1 <-- first parameter"
+echo "$2 <-- second parameter"
 ```
-would give the following output:
+returns the following output:
 
 ```
-./positional-args.sh bananas blueberries
+$ ./positional-args.sh bananas blueberries
 
-xxxx
+./positional-args.sh <-- invoking script
+bananas <-- first parameter
+blueberries <-- second parameter
 ```
 
 
