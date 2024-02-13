@@ -2,7 +2,6 @@
 
 import io
 import re
-import os
 import sys
 
 def convert(file_name):
@@ -10,8 +9,8 @@ def convert(file_name):
     try:
         # Open new csv file
         csv = io.open(file_name + ".csv", mode="w", encoding="utf-8")
-        # Open tsv file
-        with io.open(file_name + ".tsv", mode="r", encoding="utf-8") as tsv:
+        # Open the tsv file
+        with io.open(file_name, mode="r", encoding="utf-8") as tsv:
             for line in tsv:
                 csv.write(re.sub('\t',',',re.sub('(^|[\t])([^\t]*\,[^\t\n]*)', r'\1"\2"', line)))
                           
@@ -29,7 +28,7 @@ def convert(file_name):
 if __name__ == '__main__':
     print('Start converting ...')
     if len(sys.argv) < 2:
-        print('Usage: python3 detabify-args.py <file_name>')
+        print('Usage: python3 detabify-args.py <input file_name>')
         sys.exit(1)
     else:
         file_name = sys.argv[1]

@@ -1,6 +1,7 @@
 #!/bin/bash
 
-datez
+# Evaluate the status from a command
+date
 
 if [ $? -eq 0 ]
 then
