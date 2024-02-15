@@ -1,0 +1,5 @@
+#!/bin/bash
+
+NOW=`date`
+
+echo "Top of the morning to you Zoya, the time and date are $NOW"
