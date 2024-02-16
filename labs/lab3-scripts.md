@@ -45,7 +45,7 @@ Python3 should be available in your path. Use `which python3` to find the path. 
 import os
 ```
 
-To set a variable, declare the `var` name and give it a value. NOTE that `env` variables must be `string` data only. Here are some examples:
+To set a variable, declare the `var` name and assign it a value. NOTE that `env` variables MUST be `string` data only. Here are some examples:
 ```python3
 import os
 
