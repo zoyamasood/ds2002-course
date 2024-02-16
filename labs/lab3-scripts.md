@@ -31,7 +31,7 @@ read -p "1. Please give me an adjective: " ADJ1
 
 ## Python3 and `env` variables
 
-For this script you will need Python3 installed on your local system. See[these directions](https://realpython.com/installing-python/) to get started. If you cannot get Python3 installed, use a code block of [Google Colab](https://colab.research.google.com) for this assignment then save your code to a local file and submit via GitHub.
+For this script you will need Python3 installed on your local system. See [these directions](https://realpython.com/installing-python/) to get started. If you cannot get Python3 installed, use a code block of [Google Colab](https://colab.research.google.com) for this assignment then save your code to a local file and submit via GitHub.
 
 Python3 should be available in your path. Use `which python3` to find the path. It should be something like `/usr/bin/python3`
 
