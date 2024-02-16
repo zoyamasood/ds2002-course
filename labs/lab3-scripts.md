@@ -23,7 +23,7 @@ read -p "1. Please give me an adjective: " ADJ1
 ```
 5. Repeat the `read` lines to gather nouns, verbs, adjectives, adverbs totaling at least eight. (More are fine!)
 
-6. Next, use one or more `echo` commands to tell a story using all the words you have collected. Think of this as a "Once upon a time ..." story, or a "And then ..." story. There are plenty of [examples]() online. Your code should gather user input and then tell the story using those inputs.
+6. Next, use one or more `echo` commands to tell a story using all the words you have collected. Think of this as a "Once upon a time ..." story, or a "And then ..." story. There are plenty of examples online. Your code should gather user input and then tell the story using those inputs.
 
 7. Save your file. `chmod` it appropriately and test it. Debug as needed.
 
