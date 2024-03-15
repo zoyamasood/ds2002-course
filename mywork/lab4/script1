@@ -7,3 +7,10 @@ aws s3 presign --expires-in 604800 s3://ds2002-rpk4wp/dog_pic.jpg
 
 #https://ds2002-rpk4wp.s3.us-east-1.amazonaws.com/dog_pic.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZQ3DTVEVCBAEAEYT%2F20240315%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240315T192830Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Security-Token=FwoGZXIvYXdzEJ3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDI042Q6EIon2MljapiLEAUgac10HLy%2FIb6Iewi9B6C8%2F%2B3JNnUohRd1Q83u9Y%2BT6JyvWoM9G0UOywu98dwZyFxRWUGFY0QF83exxz%2BZ3IIvDncXJhsC5UhgG%2F4759Fn9%2BoQRxu0NHcND4rjVbUoZJfcBz0oIzZ0l4UQBuf1ILKN2l18POdFTLMkEuWhHTf%2Bq6%2FVqlbFnwnS%2FTb1OX9Xv6AXAhN0R3rVR%2FzMqEJx%2BTGRysu8n7iTqOYUXOLJELsVJ0RkBd%2BNc2fcSD4cSxcEKynghMVUo3r7SrwYyLdblAt6qnmMYaMnCKWJYwqfYKWGOyROYkr5tIDfkdXKjg%2BhyDKGEYbgOu15N5w%3D%3D&X-Amz-Signature=18c73d0d1a6a5089be3a65b9fb2d55e4f84f9fe0c5ddededba91f2c8139e118a
 
+aws s3 cp acl public-read dog_pic.jpg s3://ds2002-rpk4wp/
+
+#deleting bucket
+aws s3 rm s3://ds2002-rpk4wp/dog_pic.jpg
+aws s3 rm s3://ds2002-rpk4wp --recursive
+aws s3 rm s3://ds2002rpk4wp
+
